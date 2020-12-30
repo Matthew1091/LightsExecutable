@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+	<game name="Lights of Avalon" />
+   <renderer width="1024" height="768"/>
+
+   <!-- sprites -->
+   
+   <sprites path="Media\Images">
+     <sprite name="tile" file="tile" ext ="png" frames="5"/>
+     <sprite name="RougeIdle" file="PlayerSprites\Rouge\RougeIdle" ext="png" frames="10"/>
+     <sprite name="RougeWalk" file="PlayerSprites\Rouge\RougeWalk" ext="png" frames="10"/>
+     <sprite name="RougeAttack" file="PlayerSprites\Rouge\RougeAttack" ext="png" frames="10"/>
+     <sprite name="RougeAbility" file="PlayerSprites\Rouge\RougeAbility" ext="png" frames="10"/>
+     <sprite name="RougeDeath" file="PlayerSprites\Rouge\RougeDeath" ext="png" frames="10"/>
+     <sprite name="RougeDeathFinal" file="PlayerSprites\Rouge\RougeDeath9.png"/>
+     <sprite name="WarriorIdle" file="PlayerSprites\Warrior\WarriorIdle" ext="png" frames="10"/>
+     <sprite name="WarriorWalk" file="PlayerSprites\Warrior\WarriorWalk" ext="png" frames="10"/>
+     <sprite name="WarriorAttack" file="PlayerSprites\Warrior\WarriorAttack" ext="png" frames="10"/>
+     <sprite name="WarriorAbility" file="PlayerSprites\Warrior\WarriorAbility" ext="png" frames="10"/>
+     <sprite name="WarriorDeath" file="PlayerSprites\Warrior\WarriorDeath" ext="png" frames="10"/>
+     <sprite name="WarriorDeathFinal" file="PlayerSprites\Warrior\WarriorDeath9.png"/>
+     <sprite name="WizardIdle" file="PlayerSprites\Wizard\WizardIdle" ext="png" frames="10"/>
+     <sprite name="WizardWalk" file="PlayerSprites\Wizard\WizardWalk" ext="png" frames="10"/>
+     <sprite name="WizardAttack" file="PlayerSprites\Wizard\WizardAttack" ext="png" frames="10"/>
+     <sprite name="WizardAbility" file="PlayerSprites\Wizard\WizardAbility" ext="png" frames="10"/>
+     <sprite name="WizardDeath" file="PlayerSprites\Wizard\WizardDeath" ext="png" frames="10"/>
+     <sprite name="WizardDeathFinal" file="PlayerSprites\Wizard\WizardDeath9.png"/>
+     <sprite name="player" file="PlayerZero\idle" ext="png" frames="3"/>
+     <sprite name="playeridleleft" file="PlayerZero\idle" ext="png" frames="3"/>
+     <sprite name="player_run" file="PlayerZero\run" ext="png" frames="4"/>
+     <sprite name="player_ability" file="PlayerZero\abil" ext="png" frames="8"/>
+     <sprite name="player_run_left" file="PlayerZero\runleft" ext="png" frames="4"/>
+     <sprite name="player_attack_right" file="PlayerZero\attackright" ext="png" frames="6"/> 
+     <sprite name="playerOne" file="playerOne\idle" ext="png" frames="15"/>
+     <sprite name="playerOneRunning" file="playerOne\run" ext="png" frames="7"/>
+     <sprite name="playerOneJump" file="playerOne\jump" ext="png" frames="10"/>
+     <sprite name="playerOneRunningLeft" file="playerOne\runleft" ext="png" frames="5"/>
+     <sprite name="playerTwo" file="playerTwo\idle" ext="png" frames="4"/>
+     <sprite name="playerTwoLeft" file="playerTwo\idleleft" ext="png" frames="4"/>
+     <sprite name="playerTwoRunning" file="playerTwo\run" ext="png" frames="7"/>
+     <sprite name="playerTwoRunningLeft" file="playerTwo\runleft" ext="png" frames="7"/>
+     <sprite name="playerTwoAttack" file="playerTwo\attack" ext="png" frames="9"/>
+     <sprite name="game_master" file="bad" ext="png" frames="3"/>
+     <sprite name="playerOne_attack_right" file="playerOne\attack" ext="png" frames="10"/>
+     <sprite name="healthbar1" file="HealthBar\HeartFull.png"/>
+     <sprite name="healthbar2" file="HealthBar\HeartOne.png"/>
+     <sprite name="healthbar3" file="HealthBar\HeartTwo.png"/>
+     <sprite name="healthbar4" file="HealthBar\HeartThree.png"/>
+     <sprite name="healthbarEmpty" file="HealthBar\HeartEmpty.png"/>
+     <sprite name="RatAttack" file="Rat\RatAttackL" ext="png" frames="10"/>
+     <sprite name="RatIdleA" file="Rat\RatIdleAL" ext="png" frames="10"/>
+     <sprite name="RatIdleB" file="Rat\RatIdleBL" ext="png" frames="10"/>
+     <sprite name="RatWalk" file="Rat\RatWalkL" ext="png" frames="10"/>
+     <sprite name="RatDeath" file="Rat\RatDeathL" ext="png" frames="10"/>
+     <sprite name="BatAttack" file="Bat\BatAttackL" ext="png" frames="10"/>
+     <sprite name="BatIdleA" file="Bat\BatIdleAL" ext="png" frames="10"/>
+     <sprite name="BatIdleB" file="Bat\BatIdleBL" ext="png" frames="10"/>
+     <sprite name="BatFly" file="Bat\BatFlyL" ext="png" frames="10"/>
+     <sprite name="BatDeath" file="Bat\BatDeathL" ext="png" frames="10"/>
+     <sprite name="RatAttackR" file="Rat\RatAttackR" ext="png" frames="10"/>
+     <sprite name="RatIdleAR" file="Rat\RatIdleAR" ext="png" frames="10"/>
+     <sprite name="RatWalkR" file="Rat\RatWalkR" ext="png" frames="10"/>
+     <sprite name="RatDeathR" file="Rat\RatDeathR" ext="png" frames="10"/>
+     <sprite name="BatAttackR" file="Bat\BatAttackR" ext="png" frames="10"/>
+     <sprite name="BatIdleAR" file="Bat\BatIdleAR" ext="png" frames="10"/>
+     <sprite name="BatFlyR" file="Bat\BatFlyR" ext="png" frames="10"/>
+     <sprite name="BatDeathR" file="Bat\BatDeathR" ext="png" frames="10"/>
+     <sprite name="OozeAttackA" file="Ooze\attack-A" ext="png" frames="10"/>
+     <sprite name="OozeAttackB" file="Ooze\attack-B" ext="png" frames="11"/>
+     <sprite name="OozeAttackC" file="Ooze\attack-C" ext="png" frames="8"/>
+     <sprite name="OozeDeath" file="Ooze\dead-" ext="png" frames="5"/>
+     <sprite name="OozeHit" file="Ooze\hit-" ext="png" frames="3"/>
+     <sprite name="OozeIdle" file="Ooze\idle-" ext="png" frames="4"/>
+     <sprite name="OozeWalk" file="Ooze\walk-" ext="png" frames="4"/>
+     <sprite name="OozeAttackAR" file="Ooze\attack-AR" ext="png" frames="10"/>
+     <sprite name="OozeAttackBR" file="Ooze\attack-BR" ext="png" frames="11"/>
+     <sprite name="OozeAttackCR" file="Ooze\attack-CR" ext="png" frames="8"/>
+     <sprite name="OozeDeathR" file="Ooze\dead-R" ext="png" frames="5"/>
+     <sprite name="OozeHitR" file="Ooze\hit-R" ext="png" frames="3"/>
+     <sprite name="OozeIdleR" file="Ooze\idle-R" ext="png" frames="4"/>
+     <sprite name="OozeWalkR" file="Ooze\walk-R" ext="png" frames="4"/>
+     <sprite name="SkeletonAAttackA" file="SkeletonA\attack-A" ext="png" frames="8"/>
+     <sprite name="SkeletonAAttackB" file="SkeletonA\attack-B" ext="png" frames="11"/>
+     <sprite name="SkeletonADeath" file="SkeletonA\dead-" ext="png" frames="4"/>
+     <sprite name="SkeletonAHit" file="SkeletonA\hit-" ext="png" frames="3"/>
+     <sprite name="SkeletonAIdle" file="SkeletonA\idle-" ext="png" frames="4"/>
+     <sprite name="SkeletonAJump" file="SkeletonA\jump-" ext="png" frames="6"/>
+     <sprite name="SkeletonAWalk" file="SkeletonA\walk-" ext="png" frames="6"/>
+     <sprite name="SkeletonAAttackAR" file="SkeletonA\attack-AR" ext="png" frames="8"/>
+     <sprite name="SkeletonAAttackBR" file="SkeletonA\attack-BR" ext="png" frames="11"/>
+     <sprite name="SkeletonADeathR" file="SkeletonA\dead-R" ext="png" frames="4"/>
+     <sprite name="SkeletonAHitR" file="SkeletonA\hit-R" ext="png" frames="3"/>
+     <sprite name="SkeletonAIdleR" file="SkeletonA\idle-R" ext="png" frames="4"/>
+     <sprite name="SkeletonAJumpR" file="SkeletonA\jump-R" ext="png" frames="6"/>
+     <sprite name="SkeletonAWalkR" file="SkeletonA\walk-R" ext="png" frames="6"/>
+     <sprite name="SkeletonArmorAttackA" file="SkeletonArmor\attack-A" ext="png" frames="6"/>
+     <sprite name="SkeletonArmorAttackB" file="SkeletonArmor\attack-B" ext="png" frames="10"/>
+     <sprite name="SkeletonArmorDeath" file="SkeletonArmor\death-" ext="png" frames="4"/>
+     <sprite name="SkeletonArmorHit" file="SkeletonArmor\hit-" ext="png" frames="3"/>
+     <sprite name="SkeletonArmorIdle" file="SkeletonArmor\idle-" ext="png" frames="2"/>
+     <sprite name="SkeletonArmorJump" file="SkeletonArmor\jump-" ext="png" frames="5"/>
+     <sprite name="SkeletonArmorWalk" file="SkeletonArmor\walk-" ext="png" frames="6"/>
+     <sprite name="SkeletonArmorAttackAR" file="SkeletonArmor\attack-AR" ext="png" frames="6"/>
+     <sprite name="SkeletonArmorAttackBR" file="SkeletonArmor\attack-BR" ext="png" frames="10"/>
+     <sprite name="SkeletonArmorDeathR" file="SkeletonArmor\death-R" ext="png" frames="4"/>
+     <sprite name="SkeletonArmorHitR" file="SkeletonArmor\hit-R" ext="png" frames="3"/>
+     <sprite name="SkeletonArmorIdleR" file="SkeletonArmor\idle-R" ext="png" frames="2"/>
+     <sprite name="SkeletonArmorJumpR" file="SkeletonArmor\jump-R" ext="png" frames="5"/>
+     <sprite name="SkeletonArmorWalkR" file="SkeletonArmor\walk-R" ext="png" frames="6"/>
+     <sprite name="SkeletonBowAttackA" file="SkeletonBow\attack-A" ext="png" frames="6"/>
+     <sprite name="SkeletonBowAttackB" file="SkeletonBow\attack-B" ext="png" frames="6"/>
+     <sprite name="SkeletonBowDeath" file="SkeletonBow\dead-" ext="png" frames="4"/>
+     <sprite name="SkeletonBowHit" file="SkeletonBow\hit-" ext="png" frames="4"/>
+     <sprite name="SkeletonBowIdle" file="SkeletonBow\idle-" ext="png" frames="2"/>
+     <sprite name="SkeletonBowJump" file="SkeletonBow\jump-" ext="png" frames="6"/>
+     <sprite name="SkeletonBowWalk" file="SkeletonBow\run-" ext="png" frames="12"/>
+	 <sprite name="SkeletonBowAttackAR" file="SkeletonBow\attack-AR" ext="png" frames="6"/>
+     <sprite name="SkeletonBowAttackBR" file="SkeletonBow\attack-BR" ext="png" frames="6"/>
+     <sprite name="SkeletonBowDeathR" file="SkeletonBow\dead-R" ext="png" frames="4"/>
+     <sprite name="SkeletonBowHitR" file="SkeletonBow\hit-R" ext="png" frames="4"/>
+     <sprite name="SkeletonBowIdleR" file="SkeletonBow\idle-R" ext="png" frames="2"/>
+     <sprite name="SkeletonBowJumpR" file="SkeletonBow\jump-R" ext="png" frames="6"/>
+     <sprite name="SkeletonBowWalkR" file="SkeletonBow\run-R" ext="png" frames="12"/>
+     <sprite name="SkeletonShieldAttackA" file="SkeletonShield\attack-A" ext="png" frames="12"/>
+     <sprite name="SkeletonShieldAttackB" file="SkeletonShield\attack-B" ext="png" frames="7"/>
+     <sprite name="SkeletonShieldDeath" file="SkeletonShield\dead-" ext="png" frames="4"/>
+     <sprite name="SkeletonShieldHit" file="SkeletonShield\hit-" ext="png" frames="3"/>
+     <sprite name="SkeletonShieldIdle" file="SkeletonShield\idle-" ext="png" frames="4"/>
+     <sprite name="SkeletonShieldJump" file="SkeletonShield\jump-" ext="png" frames="5"/>
+     <sprite name="SkeletonShieldBlock" file="SkeletonShield\shield-block-" ext="png" frames="2"/>
+     <sprite name="SkeletonShieldWalk" file="SkeletonShield\walk-" ext="png" frames="6"/>
+     <sprite name="SkeletonShieldAttackAR" file="SkeletonShield\attack-AR" ext="png" frames="12"/>
+     <sprite name="SkeletonShieldAttackBR" file="SkeletonShield\attack-BR" ext="png" frames="7"/>
+     <sprite name="SkeletonShieldDeathR" file="SkeletonShield\dead-R" ext="png" frames="4"/>
+     <sprite name="SkeletonShieldHitR" file="SkeletonShield\hit-R" ext="png" frames="3"/>
+     <sprite name="SkeletonShieldIdleR" file="SkeletonShield\idle-R" ext="png" frames="4"/>
+     <sprite name="SkeletonShieldJumpR" file="SkeletonShield\jump-R" ext="png" frames="5"/>
+     <sprite name="SkeletonShieldBlockR" file="SkeletonShield\shield-block-R" ext="png" frames="2"/>
+     <sprite name="SkeletonShieldWalkR" file="SkeletonShield\walk-R" ext="png" frames="6"/>
+     <sprite name="ShadowBirth" file="Shadow\ShadowBirth" ext="png" frames="13"/>
+     <sprite name="ShadowIdle" file="Shadow\ShadowIdle" ext="png" frames="5"/>
+     <sprite name="ShadowTentacleBirth" file="ShadowTentacles\TentacleBirth" ext="png" frames="21"/>
+     <sprite name="turret" file="turret.png"/>
+     <sprite name="TestLevel1" file="TestLevel1.png"/>
+     <sprite name="ForestBackground" file="forest_background.png"/>
+     <sprite name="Level1" file="Level1.png"/>
+     <sprite name="Cave1" file="CrystalCave2.png"/>
+     <sprite name="ForestDark" file ="forestDark.png"/>
+     <sprite name="Sewer" file="Sewer.png"/>
+     <sprite name="greenline" file="greenline.png"/>
+     <sprite name="bullet" file="bullet.png"/>
+     <sprite name="bullet2" file="bullet2.png"/>
+     <sprite name="smoke" file="graysmoke.png"/>
+     <sprite name="spark" file="spark.png"/>
+     <sprite name="CheckpointInactive" file="CheckpointInactive.png"/>
+     <sprite name="CheckpointActive" file="CheckpointActive.png"/>
+     <sprite name="DoorOpening" file="Doors/DoorOpening" ext="png" frames="4"/>
+     <sprite name="DoorClosed" file="Doors/DoorClosed.png"/>
+     <sprite name="DoorOpen" file="Doors/DoorOpen.png"/>
+     <sprite name="OpenPortal" file="OpenPortal.png"/>
+     <sprite name="ClosePortal" file="ClosePortal.png"/>
+     <sprite name="MainMenu" file="MainMenu.png"/>
+     <sprite name="BossLevel" file="BossLevel.png"/>
+     <sprite name="VictoryText" file="VictoryText.png"/>
+     <sprite name="Null" file="Null.png"/>
+     <sprite name="MoveLight" file="MovePillar.png"/>
+     <sprite name="Mana_Full" file="ManaBar\Full.png"/>
+     <sprite name="Mana_Half" file="ManaBar\Half.png"/>
+     <sprite name="Mana_Empty" file="ManaBar\Empty.png"/>
+   </sprites>
+
+   <!-- sound -->
+  
+   <sounds  path="Media\Sounds">
+     <sound file="44magnum.wav" instances="8"/>
+     <sound file="ricochet.wav" instances="8"/>
+     <sound file="ow.wav" instances="8"/>
+     <sound file="clang.wav" instances="8"/>
+     <sound file="Ooze\OozeAttack.wav" instances="8"/>
+     <sound file="Ooze\OozeHit.wav" instances="8"/>
+     <sound file="Ooze\OozeDeath.wav" instances="8"/>
+     <sound file="Rat\RatAttack.wav" instances="8"/>
+     <sound file="Rat\RatDeath.wav" instances="8"/>
+     <sound file="Rat\RatHit.wav" instances="8"/>
+     <sound file="SkeletonA\SkeletonDeath.wav" instances="8"/>
+     <sound file="SkeletonA\SkeletonDeathAlt.wav" instances="8"/>
+     <sound file="SkeletonA\SkeletonAHit.wav" instances="8"/>
+     <sound file="SkeletonA\SkeletonAAttack.wav" instances="8"/>
+     <sound file="SkeletonArmor\SkeletonArmorAttack.wav" instances="8"/>
+     <sound file="SkeletonArmor\SkeletonArmorHit.wav" instances="8"/>
+     <sound file="SkeletonBow\BowShot.wav" instances="8"/>
+     <sound file="Shadow\ShadowHit1.wav" instances="8"/>
+     <sound file="Shadow\ShadowHit2.wav" instances="8"/>
+     <sound file="Shadow\ShadowHit3.wav" instances="8"/>
+     <sound file="Rouge\RougeAttack.wav" instances="8"/>
+     <sound file="Rouge\RougeHit.wav" instances="8"/>
+     <sound file="Wizard\WizardAttack.wav" instances="8"/>
+     <sound file="Wizard\WizardHit.wav" instances="8"/>
+     <sound file="Wizard\MagicBoltHit.wav" instances="8"/>
+     <sound file="Warrior\WarriorAttack.wav" instances="8"/>
+     <sound file="Warrior\WarriorHit.wav" instances="8"/>
+     <sound file="DoorOpen.wav" instances="8"/>
+     <sound file="Music\Battle1.wav" instances="8"/>
+     <sound file="Music\Battle2.wav" instances="8"/>
+     <sound file="Music\Level1.wav" instances="8"/>
+     <sound file="Music\Level2.wav" instances="8"/>
+     <sound file="Music\MainMenu.wav" instances="8"/>
+     <sound file="Music\Victory.wav" instances="8"/>
+   </sounds>
+</settings>
